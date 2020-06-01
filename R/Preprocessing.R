@@ -17,7 +17,7 @@ function (Counts_Sample, SNP_Pattern, N = nrow(SNP_Pattern))
     
     
     
-    Mat_Zs = matrix(0, nrow = dim(Sample)[1], ncol = dim(SNP.Pattern)[2]-3)
+    Mat_Zs = matrix(0, nrow = dim(Sample)[1], ncol = dim(SNP_Pattern)[2]-3)
     
     if (dim(Sample)[1] == N) 
     {   Missing = NA
